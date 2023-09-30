@@ -26,16 +26,16 @@ export default function CalendarView({events}:CalViewProps) {
           the next generation of the cyber workforce
         </p>
       </div>
-      <div className="p-4 lg:border-l lg:border-r-transparent sm:border-r xs:border-t border-border my-1 lg:row-span-2 sm:col-span-4 col-span-7 ">
+      <div className="mx-2 p-4 lg:border-l lg:border-r-transparent sm:border-r xs:border-t border-border my-1 lg:row-span-2 sm:col-span-4 col-span-7 ">
       <hgroup className="mb-2">
         <h1 className="text-4xl lg:text-5xl font-bold text-primary">{event.event}</h1>
-        <p className="font-bold text-lg text-muted-foreground">{formatDate(event.date)} { event.location && `@ ${event.location}`}</p>
+        <p className="font-bold text-lg text-muted-foreground">{event.time && `${event.time} `}{formatDate(event.date)} { event.location && `@ ${event.location}`}</p>
       </hgroup>
       <div dangerouslySetInnerHTML={{__html:content()}} className="prose dark:prose-invert prose-sm md:prose-base"></div>
       </div>
       <div className="sm:col-span-3 col-span-7 p-2">
         <p className="text-center text-muted-foreground">Select a date to see information about our events</p>
-        <div className="flex justify-center w-full">
+        <div className="flex justify-center w-full p-2">
           <CybearsCalendar events={events} onEventChange={setEvent}/>
         </div>
       </div>

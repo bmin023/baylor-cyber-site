@@ -8,7 +8,8 @@ export function toEvent(matterEvent: GrayMatterFile<string>): CyberEvent | null 
   if(d.date && d.event) {
     const content = remark().use(html).processSync(matterEvent.content).toString();
     return {
-      date: new Date(d.date as string),
+      date: new Date(new Date(d.date as string).setHours(24)),
+      time: d.time as string | undefined,
       event: d.event as string,
       location: d.location as string | undefined,
       content
@@ -21,5 +22,6 @@ export type CyberEvent = {
   date: Date,
   event: string,
   location?: string,
+  time?: string,
   content: string
 }

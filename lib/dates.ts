@@ -10,5 +10,5 @@ export const getFirstEvent = (events: CyberEvent[]) => {
 }
 
 export const formatDate = (date: Date) => {
-  return `${date.getHours()%12}:${date.getMinutes().toString().padStart(2,"0")} ${date.toDateString()}`
+  return `${date.toDateString()}`
 }

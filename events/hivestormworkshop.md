@@ -1,7 +1,8 @@
 ---
 event: 'Hivestorm Workshop'
 location: 'BRIC'
-date: '2023-10-03T18:00:00'
+date: '2023-10-03'
+time: '5:15 PM'
 ---
 The cybersecurity club is ready to host our first workshop! This workshop is a great opportunity to learn the basics of computer that you will need to compete in Hivestorm.
 
