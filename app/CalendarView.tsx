@@ -16,8 +16,8 @@ export default function CalendarView({events}:CalViewProps) {
     return event ? event.content : "Select a date to see any club events"
   }
   return (
-    <section className="grid grid-cols-7 grid-rows-2 w-full">
-      <div className="border-b p-4 mx-2 flex flex-col gap-2 lg:col-span-3 col-span-7">
+    <section className="grid grid-cols-7 w-full grid-flow-row auto-rows-min">
+      <div className="border-b p-4 mx-2 flex flex-col gap-2 xl:h-96 lg:h-64 lg:col-span-3 col-span-7">
         <h1 className="lg:text-6xl text-5xl font-extrabold">
           Baylor Cyber
         </h1>
