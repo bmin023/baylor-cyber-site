@@ -8,10 +8,14 @@ interface CyberCalProps {
   onEventChange: (e: CyberEvent) => void
 }
 
+const defaultEvent: CyberEvent = {
+  event: "No Upcoming Events",
+  date: new Date(),
+  content: "Don't forget you can alway reach out to us!"
+}
 
 export default function CybearsCalendar({events, onEventChange}: CyberCalProps) {
-  const [selected,setSelected] = useState<Date | undefined>(getFirstEvent(events).date);
-  const [selectedEvent,setSelectedEvent] = useState(getFirstEvent(events) as CyberEvent | null);
+  const [selected,setSelected] = useState<Date | undefined>((getFirstEvent(events) || defaultEvent).date);
 
   const eventDays = events.map(e=>e.date);
 
@@ -19,19 +23,17 @@ export default function CybearsCalendar({events, onEventChange}: CyberCalProps) 
     setSelected(day);
     if(modifiers.event) {
       const event = events.find(e => datesAreOnSameDay(e.date,day)) || null
-      setSelectedEvent(event)
       if(event) {
         onEventChange(event)
       }
     } else {
-      setSelectedEvent(null)
     }
   }
 
   return (
       <Calendar
         selected={selected}
-        defaultMonth={getFirstEvent(events).date}
+        defaultMonth={(getFirstEvent(events) || defaultEvent).date}
         onDayClick={handleDaySelect}
         className="text-md"
         modifiers={{event: eventDays}}
