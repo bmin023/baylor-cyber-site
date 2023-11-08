@@ -4,6 +4,7 @@ import { formatDate, getFirstEvent } from "@/lib/dates";
 import { CyberEvent } from "@/types/event";
 import { useEffect, useState } from "react";
 import CybearsCalendar from "./CybearsCalendar";
+import { siteConfig } from "@/config/site"
 
 interface CalViewProps {
   events: CyberEvent[]
@@ -25,7 +26,7 @@ export default function CalendarView({events}:CalViewProps) {
     <section className="grid w-full grid-flow-row auto-rows-min grid-cols-7">
       <div className="col-span-7 mx-2 flex flex-col gap-2 border-b p-4 lg:col-span-3 lg:h-64 xl:h-96">
         <h1 className="text-5xl font-extrabold lg:text-6xl">
-          Baylor Cyber
+          { siteConfig.name }
         </h1>
         <p className="max-w-[700px] text-xl text-muted-foreground">
           Devoted to creating a fun environment for learning cybersecurity and exercising those skills in order to create
