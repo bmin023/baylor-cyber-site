@@ -15,6 +15,16 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
+  keywords: ["cybersecurity", "cyber", "Baylor", "club", "ccdc", "ncl", "events"],
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    }
+  },
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -46,7 +56,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <SiteHeader />
               <div className="flex-1">
                 {children}
-                <Analytics/>
+                <Analytics />
               </div>
             </div>
             <TailwindIndicator />

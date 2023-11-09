@@ -36,7 +36,7 @@ const OfficerCard = ({ officer, left }: { officer: Officer, left: boolean }) => 
             </div>
           }
         </hgroup>
-        {officer.bio && <p dangerouslySetInnerHTML={{__html:Bio()}}></p>}
+        {officer.bio && <div dangerouslySetInnerHTML={{__html:Bio()}}></div>}
         { officer.contacts.length > 0 &&
           <div>{officer.contacts.map(contact => <p><b>{contact.name}:</b> {contact.value}</p>)}</div>
         }
