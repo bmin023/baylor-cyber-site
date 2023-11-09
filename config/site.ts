@@ -1,5 +1,7 @@
 import { Officer } from "@/types/cyber"
 import BrendonProfile from "@/public/brendon_profile.png"
+import MattProfile from "@/public/matt_profile.png"
+import AaronProfile from "@/public/aaron_profile.png"
 
 export type SiteConfig = typeof siteConfig
 
@@ -38,7 +40,8 @@ export const siteConfig = {
           name: "LinkedIn",
           href: "https://www.linkedin.com/in/matt-homan/"
         }
-      ]
+      ],
+      profilePicUrl: MattProfile
     },
     {
       name: "Brendon Kofink",
@@ -93,7 +96,8 @@ export const siteConfig = {
           name: "LinkedIn",
           href: "https://www.linkedin.com/in/aaronsierra1/"
         }
-      ]
+      ],
+      profilePicUrl: AaronProfile
     }
   ] as Officer[]
 }

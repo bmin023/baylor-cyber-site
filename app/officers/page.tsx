@@ -11,7 +11,7 @@ const ProfilePic = ({ officer, className }: { officer: Officer, className?: stri
   }
   return (
     <div className={ cn("flex w-fit items-center justify-center rounded-full bg-primary p-1.5",className) }>
-      <Image alt={`picture of our ${officer.role}, ${officer.name}`} src={officer.profilePicUrl} className="h-32 w-32 text-clip rounded-full shadow-xl" />
+      <Image alt={`picture of our ${officer.role}, ${officer.name}`} src={officer.profilePicUrl} className="h-32 w-32 text-clip rounded-full object-cover shadow-xl" />
     </div>
 
   )
@@ -48,7 +48,7 @@ const OfficerCard = ({ officer, left }: { officer: Officer, left: boolean }) => 
 export default function Officers() {
   return (
     <section className="flex w-full justify-center">
-      <div className="flex w-full max-w-5xl flex-col gap-2 p-4">
+      <div className="flex w-full max-w-4xl flex-col gap-2 p-4">
         <h1 className="text-5xl font-extrabold">Officers</h1>
         {siteConfig.officers.map((officer, i) => <OfficerCard officer={officer} left={i % 2 === 0} />)}
       </div>
