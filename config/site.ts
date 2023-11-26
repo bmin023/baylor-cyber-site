@@ -90,7 +90,15 @@ export const siteConfig = {
       role: "Treasurer",
       major: "Computer Science",
       classification: "Junior",
-      contacts: [],
+      bio: `The cyber security club is very rigirous but incredibly fun and rewarding. Because of competitions
+      in the Cyber Security club I was offered a position at General Motors my Softmore year as a Cyber Security Analyst. 
+      If you are intrested in Cyber Security and want to be successful this is the place to be.`,
+      contacts: [
+        {
+          name: "Email",
+          value: "aaron_sierra1@baylor.edu"
+        }
+      ],
       links: [
         {
           name: "LinkedIn",
