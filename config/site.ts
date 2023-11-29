@@ -29,6 +29,11 @@ export const siteConfig = {
       role: "President",
       major: "Management Information Systems",
       classification: "Senior",
+      bio: `I started in the club my sophomore year, and became captain my Junior year! I found a sense of
+      community and friendship here, and was able to help forge my Baylor identity. I've gotten the chance to 
+      compete in several competitions, and be the captain of our CCDC team. This work has allowed me to secure
+      a full-time job at Baylor as a Systems Security Administrator as well as complete undergraduate research for
+      2 years.`,
       contacts: [
         {
           name: "Email",
