@@ -9,13 +9,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: 'https://acme.com/about',
+      url: 'https://bucyber.rocks/about',
       lastModified: new Date(),
-      changeFrequency: 'monthly',
+      changeFrequency: 'yearly',
       priority: 0.8,
     },
     {
-      url: 'https://acme.com/officers',
+      url: 'https://bucyber.rocks/officers',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 0.5,
