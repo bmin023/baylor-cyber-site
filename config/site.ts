@@ -90,7 +90,7 @@ export const siteConfig = {
         { 
           name: "Email",
           value: "Bryant_Huang1@baylor.edu"
-        }
+        },
         {
           name: "Phone",
           value: "408-317-8830"
