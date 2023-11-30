@@ -29,6 +29,11 @@ export const siteConfig = {
       role: "President",
       major: "Management Information Systems",
       classification: "Senior",
+      bio: `I started in the club my sophomore year, and became captain my Junior year! I found a sense of
+      community and friendship here, and was able to help forge my Baylor identity. I've gotten the chance to 
+      compete in several competitions, and be the captain of our CCDC team. This work has allowed me to secure
+      a full-time job at Baylor as a Systems Security Administrator as well as complete undergraduate research for
+      2 years.`,
       contacts: [
         {
           name: "Email",
@@ -90,7 +95,15 @@ export const siteConfig = {
       role: "Treasurer",
       major: "Computer Science",
       classification: "Junior",
-      contacts: [],
+      bio: `The cyber security club is very rigirous but incredibly fun and rewarding. Because of competitions
+      in the Cyber Security club I was offered a position at General Motors my Softmore year as a Cyber Security Analyst. 
+      If you are intrested in Cyber Security and want to be successful this is the place to be.`,
+      contacts: [
+        {
+          name: "Email",
+          value: "aaron_sierra1@baylor.edu"
+        }
+      ],
       links: [
         {
           name: "LinkedIn",
