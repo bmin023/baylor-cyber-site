@@ -2,7 +2,7 @@ import { Officer } from "@/types/cyber"
 import BrendonProfile from "@/public/brendon_profile.png"
 import MattProfile from "@/public/matt_profile.png"
 import AaronProfile from "@/public/aaron_profile.png"
-
+import BryantProfile from "@/public/bryant_profile.jpg"
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
@@ -82,7 +82,20 @@ export const siteConfig = {
       role: "Secretary",
       major: "Computer Science",
       classification: "Junior",
-      contacts: [],
+      bio: `I am a junior majoring in Computer Science with a concentration in Cybersecurity. Previously, I served as a Product Cybersecurity Engineering Intern at 
+      Bell Flight, I found that the things I learned on this team helped a whole lot. That's why I believe BU Cyber is worth doing! When I
+      am not working or studying, which is seldom, he enjoys playing soccer, video games, and photography. Feel free to contact me if you have any questions, my primary goal
+      is to see everyone succeed!`,
+      contacts: [
+        { 
+          name: "Email",
+          value: "Bryant_Huang1@baylor.edu"
+        }
+        {
+          name: "Phone",
+          value: "408-317-8830"
+        }
+      ],
       links: [
         {
           name: "LinkedIn",
@@ -95,7 +108,7 @@ export const siteConfig = {
       role: "Treasurer",
       major: "Computer Science",
       classification: "Junior",
-      bio: `The cyber security club is very rigirous but incredibly fun and rewarding. Because of competitions
+      bio: `The cyber security club is very rigorous but incredibly fun and rewarding. Because of competitions
       in the Cyber Security club I was offered a position at General Motors my Softmore year as a Cyber Security Analyst. 
       If you are intrested in Cyber Security and want to be successful this is the place to be.`,
       contacts: [
