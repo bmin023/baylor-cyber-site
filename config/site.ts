@@ -30,7 +30,7 @@ export const siteConfig = {
       major: "Management Information Systems",
       classification: "Senior",
       bio: `I started in the club my sophomore year, and became captain my Junior year! I found a sense of
-      community and friendship here, and was able to help forge my Baylor identity. I've gotten the chance to 
+      community and friendship here, and was able to help forge my Baylor identity. I've gotten the chance to
       compete in several competitions, and be the captain of our CCDC team. This work has allowed me to secure
       a full-time job at Baylor as a Systems Security Administrator as well as complete undergraduate research for
       2 years.`,
@@ -82,12 +82,13 @@ export const siteConfig = {
       role: "Secretary",
       major: "Computer Science",
       classification: "Junior",
-      bio: `I am a junior majoring in Computer Science with a concentration in Cybersecurity. Previously, I served as a Product Cybersecurity Engineering Intern at 
+      bio: `I am a junior majoring in Computer Science with a concentration in Cybersecurity. Previously, I served as a Product Cybersecurity Engineering Intern at
       Bell Flight, I found that the things I learned on this team helped a whole lot. That's why I believe BU Cyber is worth doing! When I
       am not working or studying, which is seldom, he enjoys playing soccer, video games, and photography. Feel free to contact me if you have any questions, my primary goal
       is to see everyone succeed!`,
+      profilePicUrl: BryantProfile,
       contacts: [
-        { 
+        {
           name: "Email",
           value: "Bryant_Huang1@baylor.edu"
         },
@@ -109,7 +110,7 @@ export const siteConfig = {
       major: "Computer Science",
       classification: "Junior",
       bio: `The cyber security club is very rigorous but incredibly fun and rewarding. Because of competitions
-      in the Cyber Security club I was offered a position at General Motors my Softmore year as a Cyber Security Analyst. 
+      in the Cyber Security club I was offered a position at General Motors my Softmore year as a Cyber Security Analyst.
       If you are intrested in Cyber Security and want to be successful this is the place to be.`,
       contacts: [
         {
