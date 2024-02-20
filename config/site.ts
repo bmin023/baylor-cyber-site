@@ -84,7 +84,7 @@ export const siteConfig = {
       classification: "Junior",
       bio: `I am a junior majoring in Computer Science with a concentration in Cybersecurity. Previously, I served as a Product Cybersecurity Engineering Intern at
       Bell Flight, I found that the things I learned on this team helped a whole lot. That's why I believe BU Cyber is worth doing! When I
-      am not working or studying, which is seldom, he enjoys playing soccer, video games, and photography. Feel free to contact me if you have any questions, my primary goal
+      am not working or studying, which is seldom, I enjoy playing soccer, video games, and photography. Feel free to contact me if you have any questions, my primary goal
       is to see everyone succeed!`,
       profilePicUrl: BryantProfile,
       contacts: [
