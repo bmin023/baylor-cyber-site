@@ -3,6 +3,7 @@ import BrendonProfile from "@/public/brendon_profile.png"
 import MattProfile from "@/public/matt_profile.png"
 import AaronProfile from "@/public/aaron_profile.png"
 import BryantProfile from "@/public/bryant_profile.jpg"
+import KarinaProfile from "@/public/karina_profile.jpg"
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
@@ -27,8 +28,8 @@ export const siteConfig = {
     {
       name: "Matt Homan",
       role: "President",
-      major: "Management Information Systems",
-      classification: "Senior",
+      major: "Masters in Information Systems",
+      classification: "Graduate",
       bio: `I started in the club my sophomore year, and became captain my Junior year! I found a sense of
       community and friendship here, and was able to help forge my Baylor identity. I've gotten the chance to
       compete in several competitions, and be the captain of our CCDC team. This work has allowed me to secure
@@ -58,7 +59,7 @@ export const siteConfig = {
         compete on our CCDC team for two years and have been the captain
         of our NCL team for two seasons now! I have ranked in the **top 0.1%**
         of NCL players nationally in the standard bracket. I also created this site.`,
-      classification: "Junior",
+      classification: "Senior",
       contacts: [
         {
           name: "Email",
@@ -81,7 +82,7 @@ export const siteConfig = {
       name: "Bryant Huang",
       role: "Secretary",
       major: "Computer Science",
-      classification: "Junior",
+      classification: "Senior",
       bio: `I am a junior majoring in Computer Science with a concentration in Cybersecurity. Previously, I served as a Product Cybersecurity Engineering Intern at
       Bell Flight, I found that the things I learned on this team helped a whole lot. That's why I believe BU Cyber is worth doing! When I
       am not working or studying, which is seldom, I enjoy playing soccer, video games, and photography. Feel free to contact me if you have any questions, my primary goal
@@ -91,10 +92,6 @@ export const siteConfig = {
         {
           name: "Email",
           value: "Bryant_Huang1@baylor.edu"
-        },
-        {
-          name: "Phone",
-          value: "408-317-8830"
         }
       ],
       links: [
@@ -108,7 +105,7 @@ export const siteConfig = {
       name: "Aaron Sierra",
       role: "Treasurer",
       major: "Computer Science",
-      classification: "Junior",
+      classification: "Senior",
       bio: `The cyber security club is very rigorous but incredibly fun and rewarding. Because of competitions
       in the Cyber Security club I was offered a position at General Motors my Softmore year as a Cyber Security Analyst.
       If you are intrested in Cyber Security and want to be successful this is the place to be.`,
@@ -125,6 +122,28 @@ export const siteConfig = {
         }
       ],
       profilePicUrl: AaronProfile
+    },
+    {
+      name: "Karina Garza",
+      role: "Events Chair",
+      major: "Computer Science",
+      classification: "Junior",
+      bio: `I am a junior with a concentration in cybersecurity. I really joined my sophomore year and I found it so enjoyable
+            to be around like minded people. This club is super interesting with interesting people, but even if minorly
+            interested, this is the place to be or just to meet people too.`,
+      contacts: [
+        {
+          name: "Email",
+          value: "karina_garza1@baylor.edu"
+        }
+      ],
+      links: [
+        {
+          name: "LinkedIn",
+          href: "https://www.linkedin.com/in/karinaigarza/"
+        }
+      ],
+      profilePicUrl: KarinaProfile
     }
   ] as Officer[]
 }
